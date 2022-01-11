@@ -1,0 +1,10 @@
+require "user.options"
+require "user.keymaps"
+require "user.plugins"
+require "user.colorscheme"
+require "user.telescope"
+require "user.treesitter"
+require "user.vim-gutentags"
+require "user.nvim-tree"
+require "user.gitsigns"
+--vim.cmd('source'..nvimrc..'/lua/user/ctrlsf.vim')
