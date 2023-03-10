@@ -11,7 +11,7 @@ Get sure that on .bashrc you include the `exports` related to the environment va
 put these setting in your config file under .ssh if you use proxy
 Host=github.com
 User git
-ProxyCommand=socat - PROXY:<YOUR-PROXY-IP>:%h:%p,proxyport=<YOUR-PROXY-PORT>
+ProxyCommand=socat - PROXY:\<YOUR-PROXY-IP\>:%h:%p,proxyport= \<YOUR-PROXY-PORT\>
 
 ## After cloning this repo perform
 
